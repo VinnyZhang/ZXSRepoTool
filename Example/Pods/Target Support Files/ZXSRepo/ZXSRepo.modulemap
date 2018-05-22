@@ -1,0 +1,6 @@
+framework module ZXSRepo {
+  umbrella header "ZXSRepo-umbrella.h"
+
+  export *
+  module * { export * }
+}

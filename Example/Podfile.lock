@@ -1,0 +1,16 @@
+PODS:
+  - ZXSRepo (0.1.0)
+
+DEPENDENCIES:
+  - ZXSRepo (from `../`)
+
+EXTERNAL SOURCES:
+  ZXSRepo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZXSRepo: 6c08cebfa1d384badea5125d25a60c117034eec9
+
+PODFILE CHECKSUM: 75a49cbace13a16eca4997b60ba01bc51105692f
+
+COCOAPODS: 1.5.2
