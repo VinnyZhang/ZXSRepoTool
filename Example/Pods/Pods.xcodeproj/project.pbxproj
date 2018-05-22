@@ -8,15 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		22E37EDD4CFF5B4A10575F2C7C6E66AF /* Pods-ZXSRepo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAF0230D462E05F634A2B204C2B5C4D /* Pods-ZXSRepo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38D18176472F4B60C8E23156CFFBD410 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE528E3B42375893F1B4D5E268F4E91 /* ReplaceMe.swift */; };
+		2A5442E1DEA808E86EA9999D3AEA22C5 /* ZXSBtnT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D2E3986A5F2C54F78B934D64992BEC /* ZXSBtnT.swift */; };
 		5A1E9B81FBE7D8D2B5C180435CEADCFB /* Pods-ZXSRepo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7CC97026995023E6151F2DE4C742B3 /* Pods-ZXSRepo_Tests-dummy.m */; };
-		5EBC6F9786488784DE3EAE2AD1299465 /* ZXSRepo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2369C189986AD3A0C1879C2295AF319 /* ZXSRepo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EBC6F9786488784DE3EAE2AD1299465 /* ZXSRepo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C23FCECA837437D166BC7C37CAF97D46 /* ZXSRepo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6960397C4E49A078FCFBF1288CFFDE4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		962F03232DCA249BE1B20A090DFB1B68 /* ZXSRepo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D98051D9BBDFF910A8FB3658E7E46DF8 /* ZXSRepo-dummy.m */; };
-		D62EADA620B3E96100947266 /* ZXSBtnT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62EADA520B3E96100947266 /* ZXSBtnT.swift */; };
-		D62EADA720B3E96100947266 /* ZXSBtnT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62EADA520B3E96100947266 /* ZXSBtnT.swift */; };
-		D62EADA820B3E96100947266 /* ZXSBtnT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62EADA520B3E96100947266 /* ZXSBtnT.swift */; };
+		A2D57E316262DF0A94926C63F1240A82 /* ZXSRepo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8983474463842B02E03F55575996874 /* ZXSRepo-dummy.m */; };
 		D7EDED7A19C5B468AF4EEE4B1EE0ECBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		D9C2E132F57FD9BF4ED43F4AB221EF1F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DD6E56830DE7EC0F8564E247FCEAEA /* ReplaceMe.swift */; };
 		E9C23089B397470EFEF57DB30472F5AA /* Pods-ZXSRepo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 515526FE924ECA0276A0C3E3F9806C9F /* Pods-ZXSRepo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0094EE6EA2FEC89AFC6E0F423BEE3D7 /* Pods-ZXSRepo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9767468DFC04229FE3DC5DB2E2AD976F /* Pods-ZXSRepo_Example-dummy.m */; };
 		F29EE67DD2ED3CA6DD1535F37BF9A62A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
@@ -41,41 +39,41 @@
 
 /* Begin PBXFileReference section */
 		020E13A4444539A949215E55F2234F49 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C64E3D6ECD3EDB143E100875C51520 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1B3DEF367DE6246355295039D8C6CA34 /* Pods-ZXSRepo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZXSRepo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		21CB0110765F17E90D55A325918CABB4 /* Pods-ZXSRepo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZXSRepo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		25915BD64E1AE8D8E45AAA8DE94D85CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		274DAFCF02882C4C58C676DA6C50F6BC /* Pods-ZXSRepo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZXSRepo_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		2DAC3FB7EFAAF2FFAF749434B9A2D54F /* ZXSRepo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZXSRepo-prefix.pch"; sourceTree = "<group>"; };
-		38975C84602C581217B20CA452628914 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		3DB8303284F2DCF0C6E76630DA98570E /* ZXSRepo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZXSRepo.modulemap; sourceTree = "<group>"; };
-		4C3CA0CED7049391EAA3C4FF64F02344 /* ZXSRepo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZXSRepo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C83D6916B52FC98730E8AB8BDCE9300 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3CA0CED7049391EAA3C4FF64F02344 /* ZXSRepo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZXSRepo.framework; path = ZXSRepo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DAF0230D462E05F634A2B204C2B5C4D /* Pods-ZXSRepo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZXSRepo_Example-umbrella.h"; sourceTree = "<group>"; };
-		4F71A2A19F0D5526C25D19A3F272D00A /* ZXSRepo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZXSRepo.xcconfig; sourceTree = "<group>"; };
 		4F9C3C894FB9A98D696FD29B347E74C9 /* Pods-ZXSRepo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZXSRepo_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		50D2E3986A5F2C54F78B934D64992BEC /* ZXSBtnT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZXSBtnT.swift; path = ZXSRepo/Classes/ZXSBtnT.swift; sourceTree = "<group>"; };
 		515526FE924ECA0276A0C3E3F9806C9F /* Pods-ZXSRepo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZXSRepo_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5DE528E3B42375893F1B4D5E268F4E91 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ZXSRepo/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		61A2B1B61B6DD19E7FE2800540537B67 /* Pods-ZXSRepo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZXSRepo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		67DD6E56830DE7EC0F8564E247FCEAEA /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ZXSRepo/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		78C966EBD16248C61463B7125EAF4ECE /* Pods-ZXSRepo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZXSRepo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		847A8E39C6B62B0FB756593247BA89C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		80F8B33C6386366B5343AB755D822B89 /* ZXSRepo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZXSRepo.xcconfig; sourceTree = "<group>"; };
 		84F69DEE7589627BCF52A8EA647C3D07 /* Pods-ZXSRepo_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZXSRepo_Tests-resources.sh"; sourceTree = "<group>"; };
 		8AB6FB726DE0766E0FEA81BD23D41A80 /* Pods-ZXSRepo_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZXSRepo_Example-resources.sh"; sourceTree = "<group>"; };
-		8E0E794F15339BD6A9669D06F1D069CB /* ZXSRepo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ZXSRepo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8E209C83328207F22EC5A2C876B57ADC /* Pods-ZXSRepo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZXSRepo_Tests.modulemap"; sourceTree = "<group>"; };
 		905674F054464113EB29D044F8AE805D /* Pods-ZXSRepo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZXSRepo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93145B84E39DC6E575C62715FF8F0584 /* Pods-ZXSRepo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZXSRepo_Example-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93C9523A227113F798236E086398121C /* ZXSRepo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ZXSRepo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9767468DFC04229FE3DC5DB2E2AD976F /* Pods-ZXSRepo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZXSRepo_Example-dummy.m"; sourceTree = "<group>"; };
 		A653F7625187F12E56B7E6DFCEEC1949 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE7CC97026995023E6151F2DE4C742B3 /* Pods-ZXSRepo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZXSRepo_Tests-dummy.m"; sourceTree = "<group>"; };
 		B5D5282BE49DA5F2329B09C04553103B /* Pods-ZXSRepo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZXSRepo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B5D97665AF1064E079023AAEE45761AA /* Pods-ZXSRepo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZXSRepo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B8983474463842B02E03F55575996874 /* ZXSRepo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZXSRepo-dummy.m"; sourceTree = "<group>"; };
+		C23FCECA837437D166BC7C37CAF97D46 /* ZXSRepo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZXSRepo-umbrella.h"; sourceTree = "<group>"; };
+		CA2F9421EA01412A89B4D876DBC4D747 /* ZXSRepo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZXSRepo-prefix.pch"; sourceTree = "<group>"; };
 		D45580D6C2F09108C6C7423E14BFA41D /* Pods-ZXSRepo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZXSRepo_Example.modulemap"; sourceTree = "<group>"; };
-		D62EADA520B3E96100947266 /* ZXSBtnT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ZXSBtnT.swift; path = ZXSRepo/Classes/ZXSBtnT.swift; sourceTree = "<group>"; };
-		D98051D9BBDFF910A8FB3658E7E46DF8 /* ZXSRepo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZXSRepo-dummy.m"; sourceTree = "<group>"; };
-		DCA664DEA0F0E51356C569D8FEA5E400 /* Pods_ZXSRepo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZXSRepo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F03F621DD8EDC247E7CA28E05F119476 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2369C189986AD3A0C1879C2295AF319 /* ZXSRepo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZXSRepo-umbrella.h"; sourceTree = "<group>"; };
-		F9C8E6CD0D244AF457144C424D8FE037 /* Pods_ZXSRepo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZXSRepo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA664DEA0F0E51356C569D8FEA5E400 /* Pods_ZXSRepo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZXSRepo_Tests.framework; path = "Pods-ZXSRepo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E287B8A37BDB420B89799340B56EE3C4 /* ZXSRepo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZXSRepo.modulemap; sourceTree = "<group>"; };
+		F9C8E6CD0D244AF457144C424D8FE037 /* Pods_ZXSRepo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZXSRepo_Example.framework; path = "Pods-ZXSRepo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,16 +131,12 @@
 			path = "Target Support Files/Pods-ZXSRepo_Example";
 			sourceTree = "<group>";
 		};
-		2B1F5C5DE7971A4803D351D0199C2757 /* ZXSRepo */ = {
+		2D2A187C41AB28E3E23814A3ABD6180E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D62EADA520B3E96100947266 /* ZXSBtnT.swift */,
-				5DE528E3B42375893F1B4D5E268F4E91 /* ReplaceMe.swift */,
-				DB665A316617D159CE7CD86793165EB8 /* Pod */,
-				53959F40D1302BE48409732FE686297B /* Support Files */,
+				BAA5BF4A21C87666AE37A00120105976 /* ZXSRepo */,
 			);
-			name = ZXSRepo;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		38B7F1AAED2433F918BF87F9CEEC9736 /* Products */ = {
@@ -153,20 +147,6 @@
 				4C3CA0CED7049391EAA3C4FF64F02344 /* ZXSRepo.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		53959F40D1302BE48409732FE686297B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F03F621DD8EDC247E7CA28E05F119476 /* Info.plist */,
-				3DB8303284F2DCF0C6E76630DA98570E /* ZXSRepo.modulemap */,
-				4F71A2A19F0D5526C25D19A3F272D00A /* ZXSRepo.xcconfig */,
-				D98051D9BBDFF910A8FB3658E7E46DF8 /* ZXSRepo-dummy.m */,
-				2DAC3FB7EFAAF2FFAF749434B9A2D54F /* ZXSRepo-prefix.pch */,
-				F2369C189986AD3A0C1879C2295AF319 /* ZXSRepo-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZXSRepo";
 			sourceTree = "<group>";
 		};
 		561601F03EC0A6751929B415DA142D2B /* Pods-ZXSRepo_Tests */ = {
@@ -199,19 +179,47 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				9A9DD81E544452B6FBC0A04024C6F4D5 /* Development Pods */,
+				2D2A187C41AB28E3E23814A3ABD6180E /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				38B7F1AAED2433F918BF87F9CEEC9736 /* Products */,
 				0CF02690EBFA861BE6441C9E6C63D349 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9A9DD81E544452B6FBC0A04024C6F4D5 /* Development Pods */ = {
+		8844A583F05350372BA5E8BBCA537270 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2B1F5C5DE7971A4803D351D0199C2757 /* ZXSRepo */,
+				3C83D6916B52FC98730E8AB8BDCE9300 /* Info.plist */,
+				E287B8A37BDB420B89799340B56EE3C4 /* ZXSRepo.modulemap */,
+				80F8B33C6386366B5343AB755D822B89 /* ZXSRepo.xcconfig */,
+				B8983474463842B02E03F55575996874 /* ZXSRepo-dummy.m */,
+				CA2F9421EA01412A89B4D876DBC4D747 /* ZXSRepo-prefix.pch */,
+				C23FCECA837437D166BC7C37CAF97D46 /* ZXSRepo-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZXSRepo";
+			sourceTree = "<group>";
+		};
+		A94DC0EB97F8B14D0FC0B7E77D648EEE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				18C64E3D6ECD3EDB143E100875C51520 /* LICENSE */,
+				25915BD64E1AE8D8E45AAA8DE94D85CC /* README.md */,
+				93C9523A227113F798236E086398121C /* ZXSRepo.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BAA5BF4A21C87666AE37A00120105976 /* ZXSRepo */ = {
+			isa = PBXGroup;
+			children = (
+				67DD6E56830DE7EC0F8564E247FCEAEA /* ReplaceMe.swift */,
+				50D2E3986A5F2C54F78B934D64992BEC /* ZXSBtnT.swift */,
+				A94DC0EB97F8B14D0FC0B7E77D648EEE /* Pod */,
+				8844A583F05350372BA5E8BBCA537270 /* Support Files */,
+			);
+			name = ZXSRepo;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -220,16 +228,6 @@
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DB665A316617D159CE7CD86793165EB8 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				38975C84602C581217B20CA452628914 /* LICENSE */,
-				847A8E39C6B62B0FB756593247BA89C5 /* README.md */,
-				8E0E794F15339BD6A9669D06F1D069CB /* ZXSRepo.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +264,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2F2C6DCD3A93F24B5BCD057FF5DB1C3 /* Build configuration list for PBXNativeTarget "ZXSRepo" */;
 			buildPhases = (
-				D6148C8187B42F09FD9693856137D231 /* Sources */,
+				3A0D168195F4573835C258B0E3B7C227 /* Sources */,
 				3AB09430A56E3ADB87847B40E5BD247C /* Frameworks */,
 				9DC2C1F69E08C1247ED3B3CF64E06A74 /* Headers */,
 			);
@@ -323,14 +321,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				TargetAttributes = {
-					73845278E267A98A46F6B3AA29ADEFCF = {
-						LastSwiftMigration = 0930;
-					};
-					AB227EC4AFD577D941799FE2C8A1D972 = {
-						LastSwiftMigration = 0930;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -352,12 +342,21 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3A0D168195F4573835C258B0E3B7C227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C2E132F57FD9BF4ED43F4AB221EF1F /* ReplaceMe.swift in Sources */,
+				2A5442E1DEA808E86EA9999D3AEA22C5 /* ZXSBtnT.swift in Sources */,
+				A2D57E316262DF0A94926C63F1240A82 /* ZXSRepo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8F129D4836610A922D2B9184F4083923 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5A1E9B81FBE7D8D2B5C180435CEADCFB /* Pods-ZXSRepo_Tests-dummy.m in Sources */,
-				D62EADA720B3E96100947266 /* ZXSBtnT.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,17 +365,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0094EE6EA2FEC89AFC6E0F423BEE3D7 /* Pods-ZXSRepo_Example-dummy.m in Sources */,
-				D62EADA620B3E96100947266 /* ZXSBtnT.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D6148C8187B42F09FD9693856137D231 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				38D18176472F4B60C8E23156CFFBD410 /* ReplaceMe.swift in Sources */,
-				962F03232DCA249BE1B20A090DFB1B68 /* ZXSRepo-dummy.m in Sources */,
-				D62EADA820B3E96100947266 /* ZXSBtnT.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,7 +391,6 @@
 			baseConfigurationReference = 21CB0110765F17E90D55A325918CABB4 /* Pods-ZXSRepo_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -426,8 +413,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -439,7 +424,6 @@
 			baseConfigurationReference = 78C966EBD16248C61463B7125EAF4ECE /* Pods-ZXSRepo_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -463,7 +447,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -476,7 +459,6 @@
 			baseConfigurationReference = B5D97665AF1064E079023AAEE45761AA /* Pods-ZXSRepo_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -501,7 +483,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -634,7 +615,6 @@
 			baseConfigurationReference = 4F9C3C894FB9A98D696FD29B347E74C9 /* Pods-ZXSRepo_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -657,7 +637,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -667,7 +646,7 @@
 		};
 		DCE3100C7DCBB54AE5FBF33CFB4D106C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F71A2A19F0D5526C25D19A3F272D00A /* ZXSRepo.xcconfig */;
+			baseConfigurationReference = 80F8B33C6386366B5343AB755D822B89 /* ZXSRepo.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -700,7 +679,7 @@
 		};
 		F44C816FE6A31FAC1EB17DD164A0D1DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F71A2A19F0D5526C25D19A3F272D00A /* ZXSRepo.xcconfig */;
+			baseConfigurationReference = 80F8B33C6386366B5343AB755D822B89 /* ZXSRepo.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

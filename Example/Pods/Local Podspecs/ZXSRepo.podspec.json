@@ -1,9 +1,9 @@
 {
   "name": "ZXSRepo",
   "version": "0.1.0",
-  "summary": "A short description of ZXSRepo.",
+  "summary": "first ZXSToll",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/VinnyZhang/ZXSRepo",
+  "homepage": "https://github.com/VinnyZhang/ZXSRepoTool",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "VinnyZhang": "848967151@qq.com"
   },
   "source": {
-    "git": "https://github.com/VinnyZhang/ZXSRepo.git",
+    "git": "https://github.com/VinnyZhang/ZXSRepoTool.git",
     "tag": "0.1.0"
   },
   "platforms": {
